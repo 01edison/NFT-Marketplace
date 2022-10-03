@@ -1,0 +1,31 @@
+{
+  "name": "nft-marketplace-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "moralis:cloud": "moralis-admin-cli watch-cloud-folder --moralisSubdomain 35cvpixqhpsc.usemoralis.com --autoSave 1 --moralisCloudfolder ./cloudFunctions"
+  },
+  "dependencies": {
+    "@web3uikit/core": "^0.1.10",
+    "@web3uikit/web3": "^0.1.9",
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.1",
+    "moralis": "^2.5.1",
+    "moralis-v1": "^1.11.0",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-moralis": "^1.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.11",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
